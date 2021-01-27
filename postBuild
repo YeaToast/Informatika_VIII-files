@@ -1,1 +1,4 @@
 jupyter labextension install @arbennett/base16-nord
+rm -rf postBuild
+rm -rf requirements.txt
+rm -rf README.MD
