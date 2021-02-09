@@ -1,6 +1,5 @@
 jupyter labextension install @arbennett/base16-nord
-conda config --add channels conda-forge
-conda install jupyter-vscode-proxy
+pip3 install jupyter-vscode-proxy
 rm -rf postBuild
 rm -rf requirements.txt
 rm -rf README.MD
